@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB62BBC613A891B40082E574 /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB62BBC313A891B40082E574 /* cat1.jpg */; };
+		CB62BBC713A891B40082E574 /* cat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB62BBC413A891B40082E574 /* cat2.jpg */; };
+		CB62BBC813A891B40082E574 /* cat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB62BBC513A891B40082E574 /* cat3.jpg */; };
+		CB9BE98C136E5EB000E2DC73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9BE98B136E5EB000E2DC73 /* UIKit.framework */; };
+		CB9BE98E136E5EB000E2DC73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9BE98D136E5EB000E2DC73 /* Foundation.framework */; };
+		CB9BE990136E5EB000E2DC73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9BE98F136E5EB000E2DC73 /* CoreGraphics.framework */; };
+		CB9BE996136E5EB000E2DC73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9BE994136E5EB000E2DC73 /* InfoPlist.strings */; };
+		CB9BE999136E5EB000E2DC73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BE998136E5EB000E2DC73 /* main.m */; };
+		CB9BE99C136E5EB000E2DC73 /* HelloAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BE99B136E5EB000E2DC73 /* HelloAnimationAppDelegate.m */; };
+		CB9BE99F136E5EB000E2DC73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB9BE99D136E5EB000E2DC73 /* MainWindow.xib */; };
+		CB9BE9A2136E5EB000E2DC73 /* HelloAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BE9A1136E5EB000E2DC73 /* HelloAnimationViewController.m */; };
+		CB9BE9A5136E5EB000E2DC73 /* HelloAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB9BE9A3136E5EB000E2DC73 /* HelloAnimationViewController.xib */; };
+		CB9BE9AD136E74D400E2DC73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9BE9AC136E74D400E2DC73 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB62BBC313A891B40082E574 /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpg; sourceTree = "<group>"; };
+		CB62BBC413A891B40082E574 /* cat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpg; sourceTree = "<group>"; };
+		CB62BBC513A891B40082E574 /* cat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpg; sourceTree = "<group>"; };
+		CB9BE987136E5EAF00E2DC73 /* HelloAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9BE98B136E5EB000E2DC73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB9BE98D136E5EB000E2DC73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB9BE98F136E5EB000E2DC73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB9BE993136E5EB000E2DC73 /* HelloAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloAnimation-Info.plist"; sourceTree = "<group>"; };
+		CB9BE995136E5EB000E2DC73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB9BE997136E5EB000E2DC73 /* HelloAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		CB9BE998136E5EB000E2DC73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB9BE99A136E5EB000E2DC73 /* HelloAnimationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloAnimationAppDelegate.h; sourceTree = "<group>"; };
+		CB9BE99B136E5EB000E2DC73 /* HelloAnimationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAnimationAppDelegate.m; sourceTree = "<group>"; };
+		CB9BE99E136E5EB000E2DC73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB9BE9A0136E5EB000E2DC73 /* HelloAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloAnimationViewController.h; sourceTree = "<group>"; };
+		CB9BE9A1136E5EB000E2DC73 /* HelloAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAnimationViewController.m; sourceTree = "<group>"; };
+		CB9BE9A4136E5EB000E2DC73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloAnimationViewController.xib; sourceTree = "<group>"; };
+		CB9BE9AC136E74D400E2DC73 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9BE984136E5EAF00E2DC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9BE9AD136E74D400E2DC73 /* QuartzCore.framework in Frameworks */,
+				CB9BE990136E5EB000E2DC73 /* CoreGraphics.framework in Frameworks */,
+				CB9BE98C136E5EB000E2DC73 /* UIKit.framework in Frameworks */,
+				CB9BE98E136E5EB000E2DC73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9BE97C136E5EAF00E2DC73 = {
+			isa = PBXGroup;
+			children = (
+				CB9BE991136E5EB000E2DC73 /* HelloAnimation */,
+				CB9BE98A136E5EAF00E2DC73 /* Frameworks */,
+				CB9BE988136E5EAF00E2DC73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9BE988136E5EAF00E2DC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BE987136E5EAF00E2DC73 /* HelloAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9BE98A136E5EAF00E2DC73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BE9AC136E74D400E2DC73 /* QuartzCore.framework */,
+				CB9BE98B136E5EB000E2DC73 /* UIKit.framework */,
+				CB9BE98D136E5EB000E2DC73 /* Foundation.framework */,
+				CB9BE98F136E5EB000E2DC73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9BE991136E5EB000E2DC73 /* HelloAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BE99A136E5EB000E2DC73 /* HelloAnimationAppDelegate.h */,
+				CB9BE99B136E5EB000E2DC73 /* HelloAnimationAppDelegate.m */,
+				CB9BE99D136E5EB000E2DC73 /* MainWindow.xib */,
+				CB9BE9A0136E5EB000E2DC73 /* HelloAnimationViewController.h */,
+				CB9BE9A1136E5EB000E2DC73 /* HelloAnimationViewController.m */,
+				CB9BE9A3136E5EB000E2DC73 /* HelloAnimationViewController.xib */,
+				CB62BBC313A891B40082E574 /* cat1.jpg */,
+				CB62BBC413A891B40082E574 /* cat2.jpg */,
+				CB62BBC513A891B40082E574 /* cat3.jpg */,
+				CB9BE992136E5EB000E2DC73 /* Supporting Files */,
+			);
+			path = HelloAnimation;
+			sourceTree = "<group>";
+		};
+		CB9BE992136E5EB000E2DC73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BE993136E5EB000E2DC73 /* HelloAnimation-Info.plist */,
+				CB9BE994136E5EB000E2DC73 /* InfoPlist.strings */,
+				CB9BE997136E5EB000E2DC73 /* HelloAnimation-Prefix.pch */,
+				CB9BE998136E5EB000E2DC73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB9BE986136E5EAF00E2DC73 /* HelloAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9BE9A8136E5EB000E2DC73 /* Build configuration list for PBXNativeTarget "HelloAnimation" */;
+			buildPhases = (
+				CB9BE983136E5EAF00E2DC73 /* Sources */,
+				CB9BE984136E5EAF00E2DC73 /* Frameworks */,
+				CB9BE985136E5EAF00E2DC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAnimation;
+			productName = HelloAnimation;
+			productReference = CB9BE987136E5EAF00E2DC73 /* HelloAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9BE97E136E5EAF00E2DC73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SoftArt Laboratory";
+			};
+			buildConfigurationList = CB9BE981136E5EAF00E2DC73 /* Build configuration list for PBXProject "HelloAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB9BE97C136E5EAF00E2DC73;
+			productRefGroup = CB9BE988136E5EAF00E2DC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9BE986136E5EAF00E2DC73 /* HelloAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9BE985136E5EAF00E2DC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9BE996136E5EB000E2DC73 /* InfoPlist.strings in Resources */,
+				CB9BE99F136E5EB000E2DC73 /* MainWindow.xib in Resources */,
+				CB9BE9A5136E5EB000E2DC73 /* HelloAnimationViewController.xib in Resources */,
+				CB62BBC613A891B40082E574 /* cat1.jpg in Resources */,
+				CB62BBC713A891B40082E574 /* cat2.jpg in Resources */,
+				CB62BBC813A891B40082E574 /* cat3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9BE983136E5EAF00E2DC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9BE999136E5EB000E2DC73 /* main.m in Sources */,
+				CB9BE99C136E5EB000E2DC73 /* HelloAnimationAppDelegate.m in Sources */,
+				CB9BE9A2136E5EB000E2DC73 /* HelloAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB9BE994136E5EB000E2DC73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9BE995136E5EB000E2DC73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB9BE99D136E5EB000E2DC73 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9BE99E136E5EB000E2DC73 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB9BE9A3136E5EB000E2DC73 /* HelloAnimationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9BE9A4136E5EB000E2DC73 /* en */,
+			);
+			name = HelloAnimationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9BE9A6136E5EB000E2DC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB9BE9A7136E5EB000E2DC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB9BE9A9136E5EB000E2DC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloAnimation/HelloAnimation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloAnimation/HelloAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB9BE9AA136E5EB000E2DC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloAnimation/HelloAnimation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloAnimation/HelloAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9BE981136E5EAF00E2DC73 /* Build configuration list for PBXProject "HelloAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9BE9A6136E5EB000E2DC73 /* Debug */,
+				CB9BE9A7136E5EB000E2DC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9BE9A8136E5EB000E2DC73 /* Build configuration list for PBXNativeTarget "HelloAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9BE9A9136E5EB000E2DC73 /* Debug */,
+				CB9BE9AA136E5EB000E2DC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9BE97E136E5EAF00E2DC73 /* Project object */;
+}

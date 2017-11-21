@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="asW-jo-Qks">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--找星座-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GFm-fV-Ppd">
+                                <rect key="frame" x="10" y="20" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="E1c-hs-pgz"/>
+                                    <constraint firstAttribute="width" constant="240" id="bun-GB-tvO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.91783923690000002" blue="0.513475605" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GFm-fV-Ppd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="WFj-zf-Wes"/>
+                            <constraint firstItem="GFm-fV-Ppd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ZC6-wi-IPt"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="找星座" image="Search" id="CeU-RJ-KPt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439.2" y="50.824587706146929"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="M7s-SG-dzg">
+            <objects>
+                <viewController id="Gal-Gq-Mal" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZkH-mc-vM7"/>
+                        <viewControllerLayoutGuide type="bottom" id="hmK-X2-6XV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rY9-O1-kC7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="w1Z-ro-Tan"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hmd-kc-4p2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54" y="824"/>
+        </scene>
+        <!--分析星座-->
+        <scene sceneID="0iJ-tO-G2w">
+            <objects>
+                <viewController id="gCI-te-nYs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="431-9d-58f"/>
+                        <viewControllerLayoutGuide type="bottom" id="FWu-lG-Mgt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lcx-GK-aAW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.35432079300000002" blue="0.26184373750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="分析星座" image="Star" id="vKb-Nb-bVa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lTI-fS-i2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439" y="692"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mYi-Th-UuX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="asW-jo-Qks" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="zth-KP-kGr">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="1" green="0.35432079300000002" blue="0.26184373750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Vqd-8R-Xcg"/>
+                        <segue destination="gCI-te-nYs" kind="relationship" relationship="viewControllers" id="676-7F-dJb"/>
+                        <segue destination="Gal-Gq-Mal" kind="relationship" relationship="viewControllers" id="adw-2p-z3a"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rzb-qi-PaG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="500" y="50.824587706146929"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Search" width="25" height="25"/>
+        <image name="Star" width="25" height="25"/>
+    </resources>
+</document>

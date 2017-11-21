@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDH-RN-439">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="2f7-hi-ksc"/>
+                                </connections>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="PY4-3B-dYN">
+                                <rect key="frame" x="46.5" y="56" width="227" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="227" id="95f-Ua-N61"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="無"/>
+                                    <segment title="追蹤"/>
+                                    <segment title="追蹤&amp;方向"/>
+                                </segments>
+                                <connections>
+                                    <action selector="trackingModeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="fSZ-mQ-NNB"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iQw-Bo-T7H">
+                                <rect key="frame" x="77.5" y="20" width="165" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="ZyF-4N-YtV"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="標準"/>
+                                    <segment title="衛星"/>
+                                    <segment title="混合"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mapTypeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="1Uu-zX-yGv"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HDH-RN-439" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="2zS-Kc-hfe"/>
+                            <constraint firstItem="HDH-RN-439" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7z2-b1-IOD"/>
+                            <constraint firstAttribute="centerX" secondItem="PY4-3B-dYN" secondAttribute="centerX" id="AxD-l3-CRH"/>
+                            <constraint firstAttribute="trailing" secondItem="HDH-RN-439" secondAttribute="trailing" id="ETA-YZ-XIo"/>
+                            <constraint firstItem="iQw-Bo-T7H" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FIJ-76-CkG"/>
+                            <constraint firstAttribute="centerX" secondItem="iQw-Bo-T7H" secondAttribute="centerX" id="eZb-bP-rHc"/>
+                            <constraint firstItem="PY4-3B-dYN" firstAttribute="top" secondItem="iQw-Bo-T7H" secondAttribute="bottom" constant="8" id="ho4-I1-Go9"/>
+                            <constraint firstItem="HDH-RN-439" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="usn-e2-8Uz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="theMapView" destination="HDH-RN-439" id="zOM-xC-RWO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,99 @@
+====String=====
+String->int
+NSString*a = @"100";
+int Value = [a intValue];
+
+String->double
+NSString*a = @"0.99";
+double Value = [a doubleValue];
+
+Compasition if the same or not
+NSString*a = @"glee";
+NSString*b = @"glee";
+bool same = [a isEqualToString:b];
+
+Check if String contain in anothor string
+NSString*a = "ABCDE";
+bool same = [a containString:@"A"];
+
+Get string length
+NSString*a = "ABCDE";
+int length = [a length] or = a.length
+
+Get value in range 0~n 
+NSString*a = @"ABCDE";
+NSRange range = NSMakeRange(0,2);
+NSString*subStr = [a subStringWithRange:range];
+
+OC->Object substitute in String
+-(void)sayHelloTo:(NSString*)name{
+NSLog(@"Hello,%@", name);
+}
+[self sayHelloTo:_]
+
+OC->Object -> function value to return
+-(NSString*)sayHelloTo:(NSString*)name{
+return[NSString stringWithFormat:@"Hello,%@", name];
+}
+
+
+
+====Array====
+create empty arry
+NSArray*emptyArray = @[];
+
+Get value of number n
+NSString*member = subscribers[n];
+
+Count word numbers of the value
+NSInteger length = subscribers.count;
+
+Get the last value
+NSString*lastObject = [subscribers lastObject];
+
+Get first value
+NSString*firstObject = [subscribers firstObject];
+
+Check if Array contain a value
+bool isSubscribed = [subscribers containsObject:@"Glee"];
+
+Modify Array  -> Only NSMutableArray
+NSMutableArray*subscribers = [[NSMutableArray alloc]init];
+[subscribers addObject:@"Talor"];
+
+insert value in number n
+[subscribers insertObject@"John"atIndex:n];
+
+remove value in number n
+[subscribers removedObjectAtIndex:n];
+
+renew value in number n
+subscribers[n] = @"Elaine";
+
+Iterate/Emmerate value
+for(NSString*member in subscribers){
+NSLog(member);
+}
+
+
+
+====Dictionary====
+Blank Dictionary
+NSDictionary*class = @{};
+
+Get value, no key -> nil
+NSString*bookTitle = book[@"title"];
+
+Get Value numbers 
+book.count
+
+Get all keys
+NSArray*keys = [book allkeys];
+
+Get all value
+NSArray*values = [book allValues];
+
+Interate/Emmerate
+for(NSString*key in book.allKeys){
+NSString*value = book[key];
+}

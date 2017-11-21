@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB81A0BD1B79FE9F004BC2D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB81A0BC1B79FE9F004BC2D0 /* Default-568h@2x.png */; };
+		CB87834F1345650000605FDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87834E1345650000605FDB /* UIKit.framework */; };
+		CB8783511345650000605FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8783501345650000605FDB /* Foundation.framework */; };
+		CB8783531345650000605FDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8783521345650000605FDB /* CoreGraphics.framework */; };
+		CB8783591345650100605FDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB8783571345650100605FDB /* InfoPlist.strings */; };
+		CB87835C1345650100605FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB87835B1345650100605FDB /* main.m */; };
+		CB87835F1345650100605FDB /* HelloMyReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB87835E1345650100605FDB /* HelloMyReachabilityAppDelegate.m */; };
+		CB8783621345650100605FDB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8783601345650100605FDB /* MainWindow.xib */; };
+		CB8783651345650100605FDB /* HelloMyReachabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8783641345650100605FDB /* HelloMyReachabilityViewController.m */; };
+		CB8783681345650100605FDB /* HelloMyReachabilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8783661345650100605FDB /* HelloMyReachabilityViewController.xib */; };
+		CB87836F1345653700605FDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87836E1345653700605FDB /* SystemConfiguration.framework */; };
+		CB8783721345659100605FDB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8783711345659100605FDB /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB81A0BC1B79FE9F004BC2D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB87834A1345650000605FDB /* HelloMyReachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMyReachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB87834E1345650000605FDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB8783501345650000605FDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB8783521345650000605FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB8783561345650100605FDB /* HelloMyReachability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMyReachability-Info.plist"; sourceTree = "<group>"; };
+		CB8783581345650100605FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB87835A1345650100605FDB /* HelloMyReachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMyReachability-Prefix.pch"; sourceTree = "<group>"; };
+		CB87835B1345650100605FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB87835D1345650100605FDB /* HelloMyReachabilityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloMyReachabilityAppDelegate.h; sourceTree = "<group>"; };
+		CB87835E1345650100605FDB /* HelloMyReachabilityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMyReachabilityAppDelegate.m; sourceTree = "<group>"; };
+		CB8783611345650100605FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB8783631345650100605FDB /* HelloMyReachabilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloMyReachabilityViewController.h; sourceTree = "<group>"; };
+		CB8783641345650100605FDB /* HelloMyReachabilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMyReachabilityViewController.m; sourceTree = "<group>"; };
+		CB8783671345650100605FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloMyReachabilityViewController.xib; sourceTree = "<group>"; };
+		CB87836E1345653700605FDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CB8783701345659100605FDB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CB8783711345659100605FDB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8783471345650000605FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB87836F1345653700605FDB /* SystemConfiguration.framework in Frameworks */,
+				CB87834F1345650000605FDB /* UIKit.framework in Frameworks */,
+				CB8783511345650000605FDB /* Foundation.framework in Frameworks */,
+				CB8783531345650000605FDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB87833F1345650000605FDB = {
+			isa = PBXGroup;
+			children = (
+				CB81A0BC1B79FE9F004BC2D0 /* Default-568h@2x.png */,
+				CB87836E1345653700605FDB /* SystemConfiguration.framework */,
+				CB8783541345650000605FDB /* HelloMyReachability */,
+				CB87834D1345650000605FDB /* Frameworks */,
+				CB87834B1345650000605FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB87834B1345650000605FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB87834A1345650000605FDB /* HelloMyReachability.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB87834D1345650000605FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB87834E1345650000605FDB /* UIKit.framework */,
+				CB8783501345650000605FDB /* Foundation.framework */,
+				CB8783521345650000605FDB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB8783541345650000605FDB /* HelloMyReachability */ = {
+			isa = PBXGroup;
+			children = (
+				CB8783701345659100605FDB /* Reachability.h */,
+				CB8783711345659100605FDB /* Reachability.m */,
+				CB87835D1345650100605FDB /* HelloMyReachabilityAppDelegate.h */,
+				CB87835E1345650100605FDB /* HelloMyReachabilityAppDelegate.m */,
+				CB8783601345650100605FDB /* MainWindow.xib */,
+				CB8783631345650100605FDB /* HelloMyReachabilityViewController.h */,
+				CB8783641345650100605FDB /* HelloMyReachabilityViewController.m */,
+				CB8783661345650100605FDB /* HelloMyReachabilityViewController.xib */,
+				CB8783551345650100605FDB /* Supporting Files */,
+			);
+			path = HelloMyReachability;
+			sourceTree = "<group>";
+		};
+		CB8783551345650100605FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB8783561345650100605FDB /* HelloMyReachability-Info.plist */,
+				CB8783571345650100605FDB /* InfoPlist.strings */,
+				CB87835A1345650100605FDB /* HelloMyReachability-Prefix.pch */,
+				CB87835B1345650100605FDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8783491345650000605FDB /* HelloMyReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB87836B1345650100605FDB /* Build configuration list for PBXNativeTarget "HelloMyReachability" */;
+			buildPhases = (
+				CB8783461345650000605FDB /* Sources */,
+				CB8783471345650000605FDB /* Frameworks */,
+				CB8783481345650000605FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMyReachability;
+			productName = HelloMyReachability;
+			productReference = CB87834A1345650000605FDB /* HelloMyReachability.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8783411345650000605FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "SoftArt Laboratory";
+				TargetAttributes = {
+					CB8783491345650000605FDB = {
+						DevelopmentTeam = 2QQ25SWC5D;
+					};
+				};
+			};
+			buildConfigurationList = CB8783441345650000605FDB /* Build configuration list for PBXProject "HelloMyReachability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB87833F1345650000605FDB;
+			productRefGroup = CB87834B1345650000605FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8783491345650000605FDB /* HelloMyReachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8783481345650000605FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8783591345650100605FDB /* InfoPlist.strings in Resources */,
+				CB81A0BD1B79FE9F004BC2D0 /* Default-568h@2x.png in Resources */,
+				CB8783621345650100605FDB /* MainWindow.xib in Resources */,
+				CB8783681345650100605FDB /* HelloMyReachabilityViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8783461345650000605FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB87835C1345650100605FDB /* main.m in Sources */,
+				CB87835F1345650100605FDB /* HelloMyReachabilityAppDelegate.m in Sources */,
+				CB8783651345650100605FDB /* HelloMyReachabilityViewController.m in Sources */,
+				CB8783721345659100605FDB /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB8783571345650100605FDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8783581345650100605FDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB8783601345650100605FDB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8783611345650100605FDB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB8783661345650100605FDB /* HelloMyReachabilityViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8783671345650100605FDB /* en */,
+			);
+			name = HelloMyReachabilityViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8783691345650100605FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB87836A1345650100605FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB87836C1345650100605FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2QQ25SWC5D;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMyReachability/HelloMyReachability-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloMyReachability/HelloMyReachability-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB87836D1345650100605FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 2QQ25SWC5D;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMyReachability/HelloMyReachability-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloMyReachability/HelloMyReachability-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kent.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8783441345650000605FDB /* Build configuration list for PBXProject "HelloMyReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8783691345650100605FDB /* Debug */,
+				CB87836A1345650100605FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB87836B1345650100605FDB /* Build configuration list for PBXNativeTarget "HelloMyReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB87836C1345650100605FDB /* Debug */,
+				CB87836D1345650100605FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8783411345650000605FDB /* Project object */;
+}

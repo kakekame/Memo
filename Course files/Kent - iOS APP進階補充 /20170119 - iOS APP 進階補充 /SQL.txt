@@ -1,0 +1,6 @@
+#define CREATE_TABLE_SQL    @"CREATE TABLE IF NOT EXISTS chatlog_table(mid integer primary key autoincrement,id integer,UserName text,Message text,Type integer);"
+#define SELECT_ALL_SQL  @"SELECT * from chatlog_table;"
+#define INSERT_CHAT_LOG_SQL @"INSERT INTO chatlog_table(%@,%@,%@,%@) VALUES(?,?,?,?);"
+#define GET_LAST_MID_SQL @"SELECT * FROM chatlog_table ORDER BY mid DESC LIMIT 1;"
+#define GET_MESSAGE_BY_INDEX_SQL @"SELECT * FROM chatlog_table WHERE %@ = %ld;"
+#define MID_KEY @"mid"
